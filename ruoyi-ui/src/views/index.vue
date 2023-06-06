@@ -22,76 +22,30 @@
     </div>
 
     <main>
-      <!-- organic food section -->
-      <section class="about-section">
-
-      <el-row :gutter="20">
-
-              <el-col :span="12">
-                <el-card style="height: 650px">
-                    <div slot="header" class="clearfix">
-                       <h6><span>智慧农业设备分布与状态</span></h6>
-                     </div>
-                     <iframe id="map" src="map.html" width="100%" frameborder="0" scrolling="no"></iframe>
-      <!--              <div class='mapDiv'>
-                       <baidu-map class='bm-view' @ready='mapInit'></baidu-map>
-                    </div> -->
-
-                </el-card>
-              </el-col>
-
-              <el-col :span="12">
-                <el-card style="height: 650px">
-                    <h6><span>智慧农业环境数据</span></h6>
-
-                    <el-row :gutter="350" style="margin-top: 10px;">
-                      <el-col :span="6">
-                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度   26°</span>
-                        </el-card>
-
-                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t3.png" class="tt"><span style="padding-left: 10px;">光照强度   100000Lux</span>
-                        </el-card>
-
-                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t5.png" class="tt"><span style="padding-left: 10px;">H2S浓度   0.0001ppm</span>
-                        </el-card>
-
-                        </el-col>
-
-
-                        <el-col :span="6">
-                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t2.png" class="tt"><span style="padding-left: 10px;">空气湿度   32</span>
-                        </el-card>
-
-                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t4.png" class="tt"><span style="padding-left: 10px;">CO2浓度   0.04%</span>
-                        </el-card>
-
-                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t6.png" class="tt"><span style="padding-left: 10px;">NH3浓度   0.0001%</span>
-                        </el-card>
-                      </el-col>
-
-
-                    </el-row>
-
-                    <el-row>
-                      <el-col span="12">
-                        <div class="weather">
-                            <div id="he-plugin-standard"></div>
+          <!-- organic food section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-12 ">
+                        <div class="organic-food">
+                            <img src="https://ts1.cn.mm.bing.net/th/id/R-C.a59e279aaaa5220a995ef601c9b965d8?rik=61Whez3BUEfHfw&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd20210109ac%2f172%2fw1653h919%2f20210109%2f11e8-khmyntz8981549.jpg&ehk=g%2bk%2fE7ntPbG2NGweE7dw3K2dYrYwY0DU1dMLx2r4T%2fI%3d&risl=&pid=ImgRaw&r=0" alt="">
                         </div>
-                      </el-col>
-                    </el-row>
+                    </div>
+                    <div class="col-xl-6 col-md-12 ">
+                        <div class=" base_header_left">
+                            <small>Welcome To NIO ET7</small>
+                            <h3>LEAD THE CHANGE</h3>
+                        </div>
+                        <div class="about_item">
+                            <h4>智能电动旗舰轿车</h4>
+                            <p>蔚来ET7是蔚来汽车的旗舰电动轿车型号，ET7是一款豪华电动轿车，注重舒适性、性能和智能化技术。在动力方面，ET7搭载了一种电动驱动系统，提供强大的性能。ET7还引入了一系列先进的智能技术。
+                            它配备了蔚来的第二代车载超级计算机，具备高级驾驶辅助功能，如自动驾驶、智能语音控制和自动泊车等。</p>
+                        </div>
 
-                </el-card>
-              </el-col>
-
-        </el-row>
-
-      </section>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- end food section -->
 
         <!-- service section -->
@@ -114,8 +68,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="base-header">
-                            <small>智慧数字农业</small>
-                            <h3>智能化云平台</h3>
+                            <small>安徽省高新产业</small>
+                            <h3>智能化汽车</h3>
                         </div>
                     </div>
                 </div>
@@ -124,16 +78,15 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="./static/image/s1.jpg" alt="service">
+                                    <img src="https://n.sinaimg.cn/sinakd20210712ac/675/w1300h975/20210712/9841-19c837894d876f75e41c662d91c62f0c.jpg" alt="service">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>智慧感知为农业赋能</h4>
+                                    <h4>2023年全新一代瑞虎3x</h4>
                                 </a>
-                                <p>利用现代技术手段，如物联网、人工智能等，对农业生产过程中的土壤、气象、
-                                植物等进行监测和数据分析，实现精准农业、智慧农业的生产方式。智慧农业监控系统包括了物联网终端设备与
-                                图像识别模型，实现农业现场采集数据的显示、控制操作等</p>
+                                <p>以“真诚”为约，奇瑞与淄博开启一场双向奔赴。“三好国民车”奇瑞全新一代瑞虎3x于山东淄博“人间烟火之夜”焕新上市。
+                                瑞虎3x以引领时尚风潮的新感官设计带来全新外观设计，整体车身动线更加流畅和动感，尾部的一体贯穿式尾灯如画龙点睛，勾勒出整车风尚之感。</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -142,15 +95,15 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="./static/image/s2.jpg" alt="service">
+                                    <img src="https://img4.cheshi-img.com/202111/10/nuih2hpr3m.png" alt="service">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>智慧农业监控平台</h4>
+                                    <h4>强力混动新能源瑞虎7 PLUS</h4>
                                 </a>
-                                <p>智慧农业监控平台应用物联网技术,对农业温室大棚环境等进行全面感知，可通过手机、平板、计算机实时获取温室大棚内部的空气温湿度、
-                                二氧化碳浓度、光照强度等信息，在云业务管理平台上，实时监测温室大棚内环境参数的变化和农业作物培育、种植、生长状况等</p>
+                                <p>奇瑞强动力电混SUV 瑞虎7 PLUS 新能源以“最科技化、最国际化、最用户化”的跃迁式全新展台形象强势登陆2023上海国际车展。
+                                作为奇瑞汽车旗下首款搭载8155智慧生态平台的车型，以24.6吋曲面沉浸式环绕屏，与更符合人体工学结构打造的环抱式座舱设计相得益彰。</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -159,14 +112,14 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="./static/image/s3.jpg" alt="" srcset="">
+                                    <img src="https://p26.toutiaoimg.com/origin/tos-cn-i-qvj2lq49k0/f7d441f331554e9ab6cfb4e4ab98c58b?from=pc" alt="" srcset="">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>全方位物联网改造</h4>
+                                    <h4>高能低耗瑞虎8 PRO新能源</h4>
                                 </a>
-                                <p>通过利用物联网技术与Web服务对农业生产环节中涉及到的各种农业相关信息方面进行智能监测和数据分析，从而实现对农业全产业链的实时追踪和管理。这一方法可以提高农业生产效益，减少资源浪费，促进农业可持续发展。</p>
+                                <p>2023年奇瑞推出全新“强动力5+2座电混SUV”——瑞虎8 PRO新能源汽车，“高能和低耗”要兼得，才是出行最优解。瑞虎8 PRO新能源搭载了混合动力专用1.5T超效发动机+双电机的动力组合，系统综合功率240kW，远超合资主流车型，百公里加速只需7.2秒。</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -176,7 +129,7 @@
 
             <br><br><br>
 
- <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="base-header">
@@ -663,7 +616,7 @@
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="col-md-4 col-sm-12">
                         <div class="team-box">
                             <div class="team_img">
@@ -749,8 +702,6 @@
         <!-- end blog section -->
 
         <!-- footer section -->
-
-
         <footer class="footer-section">
             <div class="container">
                 <div class="row">
@@ -760,7 +711,7 @@
                                 <a href="javascript:void(0)"><img src="static/picture/footer_logo.png" alt="" class="footer-logo"></a>
                             </div> -->
                             <p style="font-size: 25px;margin-left: 20px;">
-                                智慧数字农业<br><br>监控系统
+                                安徽省优势产能云服务<br><br>推荐系统
                             </p>
                         </div>
                     </div>
@@ -801,7 +752,7 @@
                 </div>
             </div>
             <div class="subfooter">
-                <p>Copyright &copy; 智慧数字农业监控系统开发团队版权所有</p>
+                <p>Copyright &copy; 安徽省优势产能云服务推荐系统开发团队版权所有</p>
             </div>
         </footer>
         <!--end footer section -->
@@ -814,30 +765,15 @@
 
 <script>
 
-  window.WIDGET = {
-    "CONFIG": {
-      "layout": "1",
-      "width": "550",
-      "height": "250",
-      "background": "1",
-      "dataColor": "B6D7A8",
-      "borderRadius": "5",
-      "city": "CN101220307",
-      "key": "56e96ad05ac54bedbb93a70a4d28cfa9"
-    }
-  }
-
-  import { defineComponent, ref, reactive, toRefs, onMounted } from "vue";
-
 	export default {
 		data() {
 			return {
 				pictures: [             //轮播图
-					{src: "./static/picture/slideshow1.jpg",alt: "一带一路 ",index: "0",ref: "picture"},
+					{src: "./static/picture/slideshow1.png",alt: "一带一路",index: "0",ref: "picture"},
 					{src: "./static/picture/slideshow2.jpg",alt: "汽车",index: "1",ref: "picture"},
-					{src: "./static/picture/slideshow6.jpg",alt: "茶叶",index: "2",ref: "picture"},
-					{src: "./static/picture/slideshow5.jpg",alt: "黄山",index: "3",ref: "picture"},
-					{src: "./static/picture/slideshow4.jpg",alt: "电子",index: "4",ref: "picture"},
+					{src: "./static/picture/slideshow3.jpg",alt: "茶叶",index: "2",ref: "picture"},
+					{src: "./static/picture/slideshow4.jpg",alt: "黄山",index: "3",ref: "picture"},
+					{src: "./static/picture/slideshow5.jpg",alt: "电子",index: "4",ref: "picture"},
 				],
         goods: [],              //产品列表
 				mouseEnter: false,      //鼠标是否悬浮在整个区域上
@@ -913,13 +849,6 @@
 	        this.$refs.myul.style.left = 0 + "px";
 
 	        this.$refs.cicle[0].style.background = "black";    //挂载时展示第一张图片，默认第一个圆圈被填充
-
-          // this.mapInit();
-
-          this.$nextTick(() => {
-              this.load()
-            });
-
 	    },
 
 	    methods: {
@@ -1021,24 +950,7 @@
                 this.gotoPicture(index,"last");
               }
 
-	        },
-
-          load() {
-              const s = document.createElement('script')
-              s.type = 'text/javascript'
-              s.src =
-                'https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0'
-              document.body.appendChild(s)
-          },
-
-          mapInit({BMap, map}){
-              this.map = map
-              var point = new BMap.Point(118.385422, 31.288817)  //设置城市经纬度坐标
-              map.centerAndZoom(point, 15)    //
-              map.setCurrentCity('芜湖')   // 设置地图显示的城市 此项是必须设置的
-              map.enableScrollWheelZoom(true)    //鼠标滚动缩放
-
-          }
+	        }
 	    }
 	};
 
@@ -1079,21 +991,6 @@
   // .slider-text{
   //   opacity: 1;
   // }
-
-.tt {
-  max-width: 30px;
-  height: auto;
-}
-
-.map_image {
-  height: 600px;
-
-}
-
-.box-card {
-    width: 50%;
-    margin-left:25px;
-  }
 
   .el-row {
     margin-bottom: 20px;
@@ -1201,19 +1098,4 @@
   a:hover {
     color: deepskyblue;
   }
-
- // .mapDiv {
- //   width: 500px; height: 500px;
- //  }
-
-  #map {
-    width: 100%;
-    height: 550px;
-  }
-
-  .weather {
-    width: 550px;
-    height: 100%;
-  }
-
 </style>
