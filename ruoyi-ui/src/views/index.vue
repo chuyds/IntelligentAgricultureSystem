@@ -30,7 +30,7 @@
               <el-col :span="12">
                 <el-card style="height: 650px">
                     <div slot="header" class="clearfix">
-                       <h6><span>智慧农业设备分布与状态</span></h6>
+                       <h6><span>城市小微湿地</span></h6>
                      </div>
                      <iframe id="map" src="map.html" width="100%" frameborder="0" scrolling="no"></iframe>
       <!--              <div class='mapDiv'>
@@ -42,12 +42,12 @@
 
               <el-col :span="12">
                 <el-card style="height: 650px">
-                    <h6><span>智慧农业环境数据</span></h6>
+                    <h6><span>城市小微湿地环境数据</span></h6>
 
                     <el-row :gutter="350" style="margin-top: 10px;">
                       <el-col :span="6">
                         <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度   36°</span>
+                          <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度   26°</span>
                         </el-card>
 
                         <el-card style="height: 70px; width: 300px; margin-top: 15px;">
@@ -132,7 +132,7 @@
                                     <h4>智慧感知为农业赋能</h4>
                                 </a>
                                 <p>利用现代技术手段，如物联网、人工智能等，对农业生产过程中的土壤、气象、
-                                植物等进行监测和数据分析，实现精准农业、智慧农业的生产方式。智慧农业监控系统包括了物联网终端设备与
+                                植物等进行监测和数据分析，实现精准农业、小微湿地的生产方式。小微湿地监控系统包括了物联网终端设备与
                                 图像识别模型，实现农业现场采集数据的显示、控制操作等</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
@@ -147,9 +147,9 @@
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>智慧农业监控平台</h4>
+                                    <h4>小微湿地监控平台</h4>
                                 </a>
-                                <p>智慧农业监控平台应用物联网技术,对农业温室大棚环境等进行全面感知，可通过手机、平板、计算机实时获取温室大棚内部的空气温湿度、
+                                <p>小微湿地监控平台应用物联网技术,对农业温室大棚环境等进行全面感知，可通过手机、平板、计算机实时获取温室大棚内部的空气温湿度、
                                 二氧化碳浓度、光照强度等信息，在云业务管理平台上，实时监测温室大棚内环境参数的变化和农业作物培育、种植、生长状况等</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
@@ -176,7 +176,7 @@
 
             <br><br><br>
 
-            <div class="container">
+ <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="base-header">
@@ -749,6 +749,8 @@
         <!-- end blog section -->
 
         <!-- footer section -->
+
+
         <footer class="footer-section">
             <div class="container">
                 <div class="row">
@@ -758,7 +760,7 @@
                                 <a href="javascript:void(0)"><img src="static/picture/footer_logo.png" alt="" class="footer-logo"></a>
                             </div> -->
                             <p style="font-size: 25px;margin-left: 20px;">
-                                安徽省优势产能云服务<br><br>推荐系统
+                                城市小微湿地<br><br>监测系统
                             </p>
                         </div>
                     </div>
@@ -799,7 +801,7 @@
                 </div>
             </div>
             <div class="subfooter">
-                <p>Copyright &copy; 安徽省优势产能云服务推荐系统开发团队版权所有</p>
+                <p>Copyright &copy; 智慧数字农业监控系统开发团队版权所有</p>
             </div>
         </footer>
         <!--end footer section -->
@@ -831,10 +833,10 @@
 		data() {
 			return {
 				pictures: [             //轮播图
-					{src: "./static/picture/slideshow1.jpg",alt: "一带一路 ",index: "0",ref: "picture"},
-					{src: "./static/picture/slideshow2.jpg",alt: "汽车",index: "1",ref: "picture"},
-					{src: "./static/picture/slideshow6.jpg",alt: "茶叶",index: "2",ref: "picture"},
-					{src: "./static/picture/slideshow5.jpg",alt: "黄山",index: "3",ref: "picture"},
+					{src: "./static/picture/slideshow3.jpg",alt: "一带一路 ",index: "0",ref: "picture"},
+					{src: "./static/picture/slideshow4.jpg",alt: "汽车",index: "1",ref: "picture"},
+					{src: "./static/picture/slideshow1.jpg",alt: "茶叶",index: "2",ref: "picture"},
+					{src: "./static/picture/slideshow2.png",alt: "黄山",index: "3",ref: "picture"},
 					{src: "./static/picture/slideshow4.jpg",alt: "电子",index: "4",ref: "picture"},
 				],
         goods: [],              //产品列表
